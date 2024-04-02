@@ -231,6 +231,12 @@ penjumlahan();
         jLabel3.setFont(new java.awt.Font("Cambria", 1, 12)); // NOI18N
         jLabel3.setText("Masukkan Id Produk");
 
+        txtIdProduk.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtIdProdukActionPerformed(evt);
+            }
+        });
+
         btnCari.setFont(new java.awt.Font("Cambria", 1, 12)); // NOI18N
         btnCari.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Downloads\\icons8-search-30.png")); // NOI18N
         btnCari.setText("CARI");
@@ -312,6 +318,12 @@ penjumlahan();
 
         jLabel8.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
         jLabel8.setText("Total");
+
+        txtTotal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtTotalActionPerformed(evt);
+            }
+        });
 
         jLabel9.setFont(new java.awt.Font("Cambria", 1, 12)); // NOI18N
         jLabel9.setText("Bayar");
@@ -609,6 +621,14 @@ total();
     private void btnKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKembaliActionPerformed
         this.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_btnKembaliActionPerformed
+
+    private void txtIdProdukActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIdProdukActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtIdProdukActionPerformed
+
+    private void txtTotalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTotalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtTotalActionPerformed
 
     /**
      * @param args the command line arguments
